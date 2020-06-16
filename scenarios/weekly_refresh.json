@@ -5,11 +5,11 @@
   "name": "weekly_refresh",
   "active": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1592331878603
+    "lastModifiedOn": 1592331907514
   },
   "checklists": {
     "checklists": []
@@ -20,7 +20,25 @@
     "suppressTriggersWhileRunning": true
   },
   "tags": [],
-  "triggers": [],
+  "triggers": [
+    {
+      "id": "c6AFAT6F",
+      "type": "temporal",
+      "name": "weekly_refresh",
+      "delay": 5,
+      "active": true,
+      "params": {
+        "frequency": "Weekly",
+        "daysOfWeek": [
+          "Saturday"
+        ],
+        "dayOfMonth": 1,
+        "minute": 0,
+        "hour": 2,
+        "count": 5
+      }
+    }
+  ],
   "reporters": [],
   "params": {
     "steps": []
