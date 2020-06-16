@@ -40,7 +40,7 @@
         "mapping": [
           {
             "from": "-",
-            "to": "."
+            "to": ""
           }
         ],
         "normalization": "EXACT",
